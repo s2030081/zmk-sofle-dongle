@@ -51,6 +51,27 @@
         bindings = <&to 1>, <&to 3>;
     };
 
+    L0_1_L2: L0_1_L2 {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "L0_1_L2";
+        #sensor-binding-cells = <0>;
+        bindings = <&to 2>, <&to 1>;
+    };
+
+    L1_2_L3: L1_2_L3 {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "L1_2_L3";
+        #sensor-binding-cells = <0>;
+        bindings = <&to 3>, <&to 1>;
+    };
+
+    L2_3_L0: L2_3_L0 {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "L2_3_L0";
+        #sensor-binding-cells = <0>;
+        bindings = <&to 0>, <&to 2>;
+    };
+
     behaviors {
     };
 
@@ -80,7 +101,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&L0_1_L2>;
         };
 
         layer_2 {
@@ -93,7 +114,7 @@
             >;
 
             display-name = "layer2";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&L1_2_L3>;
         };
 
         layer_3 {
@@ -104,7 +125,9 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
             display-name = "layer3";
+            sensor-bindings = <&L2_3_L0>;
         };
     };
 };
