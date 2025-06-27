@@ -108,7 +108,7 @@
 &trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp KP_NUMLOCK  &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS     &trans       &trans
 &trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans       &trans
 &trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS  &trans
-&trans  &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans       &trans
+&trans  &trans        &trans          &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans       &trans
 &trans  &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans          &trans           &trans           &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
