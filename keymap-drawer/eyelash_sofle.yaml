@@ -191,9 +191,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - KP 0
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
   layer3:
   - {t: '$$mdi:transfer$$', type: trans}
