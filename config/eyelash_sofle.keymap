@@ -54,7 +54,7 @@
         compatible = "zmk,behavior-sensor-rotate";
         label = "L0_1_L2";
         #sensor-binding-cells = <0>;
-        bindings = <&to 2>, <&to 1>;
+        bindings = <&to 2>, <&to 0>;
     };
 
     L1_2_L3: L1_2_L3 {
